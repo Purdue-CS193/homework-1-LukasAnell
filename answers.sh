@@ -4,13 +4,13 @@
 cd ORIGIN
 
 # Task 1 
-mv Homework/MA165/HW2.txt HW1.txt
+mv Homework/MA165/HW2.txt Homework/MA165/HW1.txt
 
 # Task 2
 rm Memes/SpongeBob/money.jpeg
 
 # Task 3
-mv Memes/Star Wars/fafsa.jpg Memes/SpongeBob
+mv Memes/Star\ Wars/fafsa.jpg Memes/SpongeBob/fafsa.jpg
 
 # Task 4
 rm -r Homework/CS191
@@ -22,23 +22,25 @@ mkdir Programs/C++
 mv Programs/Age.cpp Programs/C++
 
 # Task 7
-cp Programs/Java Homework/CS180/Project_1
+cp -r Programs/Java Homework/CS180/Project_1
 
 # Task 8
 mv Programs/Count.c Programs/Goodbye.c Programs/C
 
 # Task 9
-mv Programs/Name.py Programs/Space.py Programs/Python 3
+mv Programs/Name.py Programs/Space.py Programs/Python\ 3/
 
 # Task 10
 touch Homework/POL141/Essay.txt
 
 # Task 11
-ls -a
+cd .. && ls
 
 # Task 12
 : '
 Type your vim/nano customizations below:
 set autoindent
 set tabsize 4
+set nowrap
+set nohelp
 '
